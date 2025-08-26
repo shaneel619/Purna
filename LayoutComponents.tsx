@@ -1,1 +1,0 @@
-<Header and Footer components with glassy look here>

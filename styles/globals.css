@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #__next { height: 100%; }
+body { background:#0f1115; color:#EEF1F6; }
+.glass { @apply backdrop-blur-xl bg-white/10 border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.35)]; }
+.header-glass { @apply backdrop-blur-xl bg-black/30 border-b border-white/15; }
+.button-gold { background:linear-gradient(135deg,#C8A86B,#E8D8B0); color:#1b1b1b; }
+.mask-radial-soft { -webkit-mask-image: radial-gradient(ellipse at center, black 70%, transparent 100%); mask-image: radial-gradient(ellipse at center, black 70%, transparent 100%); }
+.section { @apply max-w-7xl mx-auto px-6; }
+.h1 { @apply font-serif text-4xl md:text-5xl; }
+.h2 { @apply font-serif text-3xl md:text-4xl; }
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.prose :where(h1,h2,h3){ @apply font-serif; }
